@@ -1,4 +1,5 @@
-import Header from "@/Components/Header"
+import React from 'react';
+import '../styles/footer.css';
 import ReactDOM from 'react-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'

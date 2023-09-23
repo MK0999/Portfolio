@@ -1,4 +1,6 @@
 import React from 'react';
+import React from 'react';
+import '../styles/portfolio.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';

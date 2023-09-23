@@ -1,3 +1,5 @@
+import React from 'react';
+import '../styles/header.css';
 import { GiHamburgerMenu } from "react-icons/bs";
  const Header = ()=> {
   return (
