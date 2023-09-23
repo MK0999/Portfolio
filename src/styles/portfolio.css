@@ -3,12 +3,13 @@
     width: 100%;
     position: relative;
     height: calc(100% - 100px);
-    display: flex;
+   margin: 10px;
     
     
     }
-    .container.topimg {
-        display: block;
+    .topimg {
+      
+        display: flex;
         position: absolute;
     }
     
