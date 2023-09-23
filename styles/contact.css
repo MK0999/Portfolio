@@ -1,0 +1,31 @@
+form {
+    height: calc(100% - 100px);
+    padding: 100px;
+    background-color: rgba(148, 165, 148, 0.774);
+}
+#formBasicEmail.form-control {
+    width: 20%;
+}
+#formBasicPassword.form-control {
+    width: 20%;
+}
+#exampleForm.ControlTextarea1.form-control {
+    width: 10%;
+    padding: 30%;
+}
+button.btn.btn-primary {
+    padding: 10px 40px;
+    background-color: rgb(36, 122, 36);
+    border-radius: 50px;
+   margin-top: 25px;
+    font-size: 20px;
+    display: flex;
+   align-items: center;
+    font-weight: 700;
+    border: none;
+    color: azure;
+
+}
+label.form-label {
+    font-weight: 700;
+}

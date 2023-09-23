@@ -1,0 +1,38 @@
+.container {
+    padding-top: 50px;
+    width: 100%;
+    position: relative;
+    height: calc(100% - 100px);
+    display: flex;
+    
+    
+    }
+    .container.topimg {
+        display: block;
+        position: absolute;
+    }
+    
+    .container.bottomimg {
+        
+        position: absolute;
+    }
+        .container img{
+    padding-left: 60px;
+            width: 300px;
+            height: 300px;
+        }
+        .topimg {
+    height: 100%;
+    width: 100%;
+        }
+        .imgcontainer {
+            width: 400px;
+            height: 400px;
+            background-color: white;
+           
+        }
+        .bottomimg {
+            padding-top: 50px;
+           display: flex;
+    
+        }
