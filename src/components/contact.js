@@ -18,10 +18,11 @@ import Form from 'react-bootstrap/Form';
       </Form.Group>
 
      
-      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+      <Form.Group className="mb-3" controlId="formBasicName">
         <Form.Label>Message</Form.Label>
-        <Form.Control type="text" placeholder="Your Message" />
-        </Form.Group>
+        <Form.Control type="text" placeholder="" />
+      </Form.Group>
+       
       <Form.Group className="mb-3" controlId="formBasicCheckbox">
         <Form.Check type="checkbox" label="Check me out" />
       </Form.Group>

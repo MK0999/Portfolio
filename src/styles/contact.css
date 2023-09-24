@@ -1,17 +1,21 @@
 form {
-    height: calc(100% - 100px);
-    padding: 100px;
-    background-color: rgba(148, 165, 148, 0.774);
+    flex-wrap: wrap;
+    height: 78vh;
+    padding-top: 100px;
+    padding-left: 400px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.979)
 }
 #formBasicEmail.form-control {
-    width: 20%;
+    width: 30%;
 }
 #formBasicPassword.form-control {
-    width: 20%;
+    width: 30%;
 }
-#exampleForm.ControlTextarea1.form-control {
-    width: 10%;
-    padding: 30%;
+#formBasicName.form-control {
+    width: 30%;
+    height: 90px;
 }
 button.btn.btn-primary {
     padding: 10px 40px;

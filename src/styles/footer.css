@@ -1,2 +1,14 @@
+footer {
+    padding: 14px;
+    margin-top: auto;
+    background-color: black;
+    color: aliceblue;
+   
+}
 
-
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+}

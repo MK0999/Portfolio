@@ -10,11 +10,11 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
   return (
     <footer className="footer">
  
-    <div>
-        <ul>
-            <li className="icons"><FontAwesomeIcon icon= { faEnvelope}   /></li>
-            <li><FontAwesomeIcon icon= { faLinkedin} /></li>
-        </ul>
+    <div className='icons'>
+   
+            <div className="icons"><FontAwesomeIcon icon= { faEnvelope}   /></div>
+            <div className='linkedin'><FontAwesomeIcon icon= { faLinkedin} /></div>
+      
     </div>
     </footer>
   )

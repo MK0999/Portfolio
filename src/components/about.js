@@ -12,10 +12,10 @@ const About = ()=> {
           in Computer Science from India and a Full Stack Web Development certification 
           from Carleton University, Ottawa. My passion for 
           web development drives my work ethic, making me a committed and detail-oriented professional. </p>
-          <button className="intro-button"><a href="https://docs.google.com/document/d/1NlenKCHnqz6kgExoywBZRU6MI92eZqDG/edit">Resume</a></button>
+          <button className="intro-button"><a className='resume-btn' href="https://docs.google.com/document/d/1NlenKCHnqz6kgExoywBZRU6MI92eZqDG/edit">Resume</a></button>
         </div>
           <div className="photo">
-            <img src="/assets/"></img>
+            <img src="./assets/IMG-2264.he" alt='name'></img>
         </div>
       </div>
      
