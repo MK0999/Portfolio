@@ -1,8 +1,9 @@
 footer {
-    padding: 14px;
-    margin-top: auto;
+    padding: 20px;
+    margin-top: 80%;
     background-color: black;
     color: aliceblue;
+    display: inline;
    
 }
 
@@ -11,4 +12,19 @@ footer {
     align-items: center;
     justify-content: center;
     padding: 14px;
+    
+}
+.email {
+    padding: 14px;
+}
+.linkedin {
+    padding: 14px;
+}
+.github {
+    padding: 14px;
+}
+@media(max-width: 400px){
+    icons {
+    padding-left: 10px;
+}
 }

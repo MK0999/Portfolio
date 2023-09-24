@@ -19,31 +19,36 @@ const styles = {
 <div className='container'>
       <div className='topimg'>
         <div className='imgcontainer'>
-          <img className="test" style={styles.bounce} src= "/assets/cheatsheet.png" alt='cheatsheet'/>
-           <button className="repo-button"><a  href="https://docs.google.com/document/d/1NlenKCHnqz6kgExoywBZRU6MI92eZqDG/edit">Repository</a></button>
-           <button className="deploy-button"><a href="https://docs.google.com/document/d/1NlenKCHnqz6kgExoywBZRU6MI92eZqDG/edit">Deploy</a></button>
+          <img className="test" style={styles.bounce} src= "/assets/cheatsheet.png" alt='cheatsheet' />
+        <p>Cheatsheet</p>
+           <button className="repo-button"><a  href="https://github.com/Teelsam/CheatSheetGen">Repository</a></button>
+           <button className="deploy-button"><a href="https://obscure-stream-33374-4c4296c6212a.herokuapp.com/">Deploy</a></button>
          </div>
        
          <div className='imgcontainer'>
           <img src= "/assets/mediabrowser.png" alt='movie' />
-          <button className="repo-button"><a href="https://docs.google.com/document/d/1NlenKCHnqz6kgExoywBZRU6MI92eZqDG/edit">Repository</a></button>
-           <button className="deploy-button"><a href="https://docs.google.com/document/d/1NlenKCHnqz6kgExoywBZRU6MI92eZqDG/edit">Deploy</a></button>
+          <p>Movie Browser</p>
+          <button className="repo-button"><a href="https://github.com/99Anvar99/Media-Universe">Repository</a></button>
+           <button className="deploy-button"><a href=" https://99anvar99.github.io/Media-Universe/">Deploy</a></button>
           </div>
           <div className='imgcontainer'>
           <img src= "/assets/notes.png" alt='schedule'  />
-          <button className="repo-button"><a href="https://docs.google.com/document/d/1NlenKCHnqz6kgExoywBZRU6MI92eZqDG/edit">Repository</a></button>
+          <p>Work Day Scheduler</p>
+          <button className="repo-button"><a href="https://github.com/MK0999/almanac">Repository</a></button>
            <button className="deploy-button"><a href="https://mk0999.github.io/almanac/">Deploy</a></button>
           </div>
        </div>
        <div className='bottomimg'>
        <div className='imgcontainer'>
          <img src="/assets/weather.png" alt='weather' />
-          <button className="repo-button"><a href="https://docs.google.com/document/d/1NlenKCHnqz6kgExoywBZRU6MI92eZqDG/edit">Repository</a></button>
+         <p>Weather Forecast</p>
+          <button className="repo-button"><a href="https://github.com/MK0999/shriveled">Repository</a></button>
            <button className="deploy-button"> <a href="https://mk0999.github.io/shriveled/">Deploy</a></button>
           </div>
           <div className='imgcontainer'>
            <img src="/assets/quiz.png" alt='quiz' />
-          <button className="repo-button"><a href="https://docs.google.com/document/d/1NlenKCHnqz6kgExoywBZRU6MI92eZqDG/edit">Repository</a></button>
+           <p>Quiz</p>
+          <button className="repo-button"><a href="https://github.com/MK0999/protestation">Repository</a></button>
            <button className="deploy-button"><a href="https://mk0999.github.io/protestation/">Deploy</a></button>
           </div>
         </div>

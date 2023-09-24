@@ -1,6 +1,6 @@
 form {
     flex-wrap: wrap;
-    height: 78vh;
+    height: 76vh;
     padding-top: 100px;
     padding-left: 400px;
     align-items: center;
@@ -17,6 +17,10 @@ form {
     width: 30%;
     height: 90px;
 }
+
+.form-label {
+    color: green;
+}
 button.btn.btn-primary {
     padding: 10px 40px;
     background-color: rgb(36, 122, 36);
@@ -28,8 +32,57 @@ button.btn.btn-primary {
     font-weight: 700;
     border: none;
     color: azure;
+    
 
+}
+button.btn.btn-primary:hover {
+    
+    box-shadow: 0 0 5px green,  0 0 25px green, 0 0 50px green,
+     0 0 100px green, 0 0 200px green,;
 }
 label.form-label {
     font-weight: 700;
 }
+
+@media(max-width: 400px){
+    form {
+        padding-left: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    #formBasicEmail.form-control {
+        width: 60%;
+    }
+    #formBasicPassword.form-control {
+        width: 60%;
+    }
+    #formBasicName.form-control {
+        width: 60%;
+        height: 90px;
+    }
+    button.btn.btn-primary {
+        padding: 10px 30px;
+    }
+}
+@media(max-width: 700px){
+    form {
+        padding-left: 100px;
+        height: 64vh;
+    }
+    #formBasicEmail.form-control {
+        width: 70%;
+    }
+    #formBasicPassword.form-control {
+        width: 70%;
+    }
+    #formBasicName.form-control {
+        width: 70%;
+        height: 90px;
+    }
+    button.btn.btn-primary {
+        padding: 10px 30px;
+    }
+}
+
+
+
