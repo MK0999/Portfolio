@@ -44,6 +44,13 @@ label.form-label {
     font-weight: 700;
 }
 
+.error {
+    color: red;
+    padding-left: 150px;
+   
+    font-size: 20px;
+}
+
 @media(max-width: 400px){
     form {
         padding-left: 10px;
