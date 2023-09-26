@@ -97,7 +97,7 @@ setMessageVisible(true);
         Submit
        
       </Button>
-      {errorMessage && (
+      {(errorMessage && messageVisible) && (
       <div>
       <p className='error'>{errorMessage}</p></div>
     )}
