@@ -17,9 +17,9 @@ Mock-Up
 
 ## SCREENSHOTS
 
-![main page!](https://github.com/MK0999/Portfolio/blob/main/public/assets/Screenshot%20(100).png)
-![portfolio section]()
-![contact!]()
+![main page!]()
+![portfolio section](https://github.com/MK0999/Portfolio/blob/main/public/assets/Screenshot%20(99).png?raw=true)
+![contact!](https://github.com/MK0999/Portfolio/blob/main/public/assets/Screenshot%20(100).png)
 
 ## CREDIT
 
