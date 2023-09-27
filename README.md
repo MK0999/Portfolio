@@ -29,4 +29,4 @@ Class study material
 
 ## LINKS
  - Deployed Link- https://mk0999.github.io/Portfolio/
- - Repository LInk - 
+ - Repository LInk - https://github.com/MK0999/Portfolio
