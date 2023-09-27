@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/about.css';
-
+import profileImage from '../assets/IMG-2264.heic'
 const About = ()=> {
     return (
       
@@ -15,7 +15,7 @@ const About = ()=> {
           <button className="intro-button"><a className='resume-btn' href="https://docs.google.com/document/d/1NlenKCHnqz6kgExoywBZRU6MI92eZqDG/edit">Resume</a></button>
         </div>
           <div className="photo">
-            <img src="./assets/IMG-2264.heic" alt='name'></img>
+            <img src={profileImage} alt='name'></img>
         </div>
       </div>
      
