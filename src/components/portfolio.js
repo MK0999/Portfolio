@@ -22,7 +22,7 @@ const styles = {
         {
           projectdata.map(project => {
             return (
-              <div className='imgcontainer col-3'>
+              <div  key = {project.ProjectTitle}className='imgcontainer col-3'>
               <img className="test" style={styles.bounce} src= {project.imgSrc}alt='cheatsheet' />
             <p>{project.ProjectTitle}</p>
                <button className="repo-button"><a  href={project.repoLink}>Repository</a></button>
