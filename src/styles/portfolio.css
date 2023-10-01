@@ -16,19 +16,19 @@
         position: absolute;
         
         flex-wrap: wrap;
-        padding-left: 300px;
+        padding-left: 100px;
     }
     
     
         .container img{
    
-            width: 250px;
+            width: 331px;
             height: 200px;
         }
       
         
         .imgcontainer {
-            width: 250px;
+            width: 200px;
             height: 250px;
             background-color: white;
             margin: 20px;
@@ -38,6 +38,7 @@
 
            
         }
+        
         
         .imgcontainer:hover {
             opacity: .8;

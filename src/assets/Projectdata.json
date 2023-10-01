@@ -1,0 +1,38 @@
+[
+    {
+        "ProjectTitle" : "Cheatsheet",
+        "imgSrc" : "/assets/cheatsheet.png",
+        "deployed" : "https://obscure-stream-33374-4c4296c6212a.herokuapp.com/",
+        "repoLink" : "https://github.com/Teelsam/CheatSheetGen"
+
+    },
+    {
+        
+        "ProjectTitle" : "Movie Browser",
+        "imgSrc" : "/assets/mediabrowser.png",
+        "deployed" : " https://99anvar99.github.io/Media-Universe/",
+        "repoLink" :"https://github.com/99Anvar99/Media-Universe"
+    },
+
+    {
+        "ProjectTitle" : "Work Schedular",
+        "imgSrc" : "/assets/notes.png",
+        "deployed" :"https://mk0999.github.io/almanac/",
+        "repoLink" :"https://github.com/MK0999/almanac" 
+    },
+
+    {
+        "ProjectTitle" : "Weather Forecast",
+        "imgSrc" : "/assets/weather.png",
+        "deployed" :"https://mk0999.github.io/shriveled/",
+        "repoLink" :"https://github.com/MK0999/shriveled" 
+    },
+
+    {
+        "ProjectTitle" : "Quiz",
+        "imgSrc" : "/assets/quiz.png",
+        "deployed" :"https://mk0999.github.io/protestation/",
+        "repoLink" :"https://github.com/MK0999/protestation"
+    }
+
+]
